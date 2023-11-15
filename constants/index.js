@@ -9,7 +9,7 @@ export const NAV_LINKS = [
     { href: '/', key: 'clients', label: 'Clients' },
   ];
   
-  // CAMP SECTION
+  // CAMP SECTION Test
   export const PEOPLE_URL = [
     '/person-1.png',
     '/person-2.png',
