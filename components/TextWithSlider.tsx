@@ -1,4 +1,7 @@
+
 import Image from "next/image"; 
+
+
 
 const TextWithSlider = () => {
   return (
