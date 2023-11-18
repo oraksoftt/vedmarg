@@ -17,13 +17,14 @@ const Footer = () => {
               height={200}
             />
           </Link>
+        
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((columns, index) => (
               <FooterColumn key={index} title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+                <ul className="regular-14 flex flex-col gap-4 text-gray-30 items-center">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <Link href="/" key={link} className="">
                       {link}
                     </Link>
                   ))}
@@ -32,21 +33,24 @@ const Footer = () => {
             ))}
 
             <div className="flex flex-col gap-5">
-              {FOOTER_CONTACT_INFO.links.map((link, index) => (
-                <FooterColumn key={index} title={FOOTER_CONTACT_INFO.title}>
-                  <div
-                    key={link.label}
-                    className="flex items-center gap-4 md:flex-col lg:flex-row"
-                  >
-                    <p className="whitespace-nowrap text-gray-10 text-justify">
-                      {link.label}:
-                    </p>
-                    <p className="medium-14 whitespace-nowrap text-gray-30">
-                      {link.value}
-                    </p>
-                  </div>
+              <div className="flex flex-col gap-5">
+                <FooterColumn title={FOOTER_CONTACT_INFO.title}>
+                  {FOOTER_CONTACT_INFO.links.map((link, index) => (
+                    <div
+                      key={index}
+                      className="flex items-center gap-4 md:flex-col lg:flex-row"
+                    >
+                      <p className="whitespace-nowrap text-gray-10 text-justify">
+                        {link.label}:
+                      </p>
+                      <p className="medium-14 whitespace-nowrap text-gray-30">
+                        {link.value}
+                      </p>
+                    </div>
+                  ))}
                 </FooterColumn>
-              ))}
+              </div>
+
               <FooterSocialMediaIcons />
             </div>
           </div>

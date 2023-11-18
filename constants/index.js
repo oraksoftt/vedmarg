@@ -9,6 +9,30 @@ export const NAV_LINKS = [
   { href: "/", key: "clients", label: "Clients" },
 ];
 
+// OUR DOWNLOAD SLIDER SECTION
+export const DOWNLOAD_SLIDER = [
+  '/admin-login-management-1.png',
+  '/Admit-Card-Details.png',
+  '/Class-Timetable.png',
+  '/Login-with-OTP.png',
+  '/Login-with-Password.png',
+  '/Pay-Due-Fees-Online.png',
+  '/Real-Time-Notifications.png',
+  '/Student-Dashboard.png',
+  '/Transport-Details.png',
+   
+];
+  
+
+// OUR CLIENTS SECTION
+export const OUR_CLIENTS = [
+  '/student-information-management-system-download-3.png',
+  '/online-school-erp-system-free-download-with-source-code-2.png',
+  '/free-school-erp-mobile-app.png',
+  '/jp-academy-free-school-management-software.png',
+  '/J-B-R-D-International-academy-school-management-system.png',
+  '/Ketan-convent-school-school-management-system.png',
+];
   
 // FOOTER SECTION
 export const FOOTER_LINKS = [
@@ -47,7 +71,7 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: "Support", value: "+971-522324409" },
     { label: "Email", value: "oraksoft@gmail.com" },    
-    { label: "Sales-", value: "oraksoft@gmail.com" },
+    { label: "Sales-", value: "sales@gmail.com" },
     { label: "Add", value: "21 F,UAE Sharjah" },
   ],
 };
