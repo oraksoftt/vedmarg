@@ -24,6 +24,54 @@ export const DOWNLOAD_SLIDER = [
 ];
   
 
+
+// MODULES || FEATURES SECTION
+export const FEATURES = [
+  {
+    title: 'Fee Management System',
+    icon: '/feeCalculator.svg',
+    variant: 'green',
+    description:
+      'Strong fee management system to manage the balance fees, submitted fees, incoming payments, and receipts of students.',
+  },
+  {
+    title: 'Student Management System',
+    icon: '/StudentManagement.svg',
+    variant: 'green',
+    description:
+      "Student management system (SMS) helps in managing all the academics, financial records of all the students.",
+  },
+  {
+    title: 'Teacher Management',
+    icon: '/TeacherManagment.svg',
+    variant: 'green',
+    description:
+      'You can view the schedule, reports, activities, and class timings of every single teacher using the software.',
+  },
+  {
+    title: 'Push Notifications',
+    icon: '/push-notification.svg',
+    variant: 'orange',
+    description:
+      'It facilitates to send UNLIMITED push notifications to all students, specific students or class-wise, anytime.',
+  },
+
+  {
+    title: 'Exam & Results',
+    icon: '/ExamAndResult.svg',
+    variant: 'orange',
+    description:
+      'The software allows students to give online assessments, and generate a report card of each student.',
+  },
+  {
+    title: 'View All Features',
+    icon: '/viewAll.svg',
+    variant: 'orange',
+    description:
+      'We have a lot of features in Vedmarg School ERP. We have added 40+ modules to make everything digital..',
+  },
+];
+
 // OUR CLIENTS SECTION
 export const OUR_CLIENTS = [
   '/student-information-management-system-download-3.png',
