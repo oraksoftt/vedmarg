@@ -72,6 +72,35 @@ export const FEATURES = [
   },
 ];
 
+// RECENT UPDATES SECTION
+export const RECENT_UPDATES = [
+  {
+    title: 'Top Key Benefits of School Mobile Apps to Manage School Properly',
+    image: '/Top-Features-of-Vedmarg-Student-App-Exclusive-App-For-Students.jpg',
+     
+  },
+  {
+    title: 'Download School Management Software Full Version with Source Code',
+    image: '/Fee-Management-Software.jpg',
+     
+  },
+  {
+    title: 'School Home Work/ Assignments Module in School ERP Software',
+    image: '/school-home-work-assignments-module-1536x768.png',
+     
+  },
+  {
+    title: 'Top Features of Vedmarg Student App, Exclusive App For Students',
+    image: '/Top-Features-of-Vedmarg-Student-App-Exclusive-App-For-Students.jpg',
+     
+  },
+  {
+    title: 'Stop Chasing Payments & Do Invest in Fee Management System',
+    image: '/Stop-Chasing-Payments-Do-Invest-in-Fee-Management-System.jpg',
+     
+  },
+];
+
 // OUR CLIENTS SECTION
 export const OUR_CLIENTS = [
   '/student-information-management-system-download-3.png',

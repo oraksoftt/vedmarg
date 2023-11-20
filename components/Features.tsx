@@ -1,10 +1,9 @@
 import { FEATURES } from "@/constants";
-import Image from "next/image";
-import React from "react";
+import Image from "next/image"; 
 
 const Features = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+    <section className="flex-col flexCenter overflow-hidden   py-24">
       <div className="   text-center py-4">
         <h1 className=" text-2xl font-semibold lg:font-bold xl:max-w-[390px]">
           80+ Modules Available
