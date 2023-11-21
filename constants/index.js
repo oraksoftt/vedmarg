@@ -23,7 +23,59 @@ export const DOWNLOAD_SLIDER = [
    
 ];
   
-
+// Why Vedmarg is Most Trusted School ERP System ?..
+export const MOST_TRUSTED_LEFT=[
+  {
+    title: 'Easy Setup',
+    description:
+    'We offer a complete setup and proper guidance to manage your school easily.',
+    icon: '/easysetup.svg', 
+  },
+  {
+    title: 'Responsive Web & Mobile ',
+    description:
+    'Vedmarg web application and mobile application are 100% responsive..',
+    icon: '/screen.svg', 
+  },
+  {
+    title: 'Find fee defaulters ',
+    description:
+    'Vedmarg makes it easy for you to keep a check on all the fee defaulters.',
+    icon: '/eye.svg', 
+  },
+  {
+    title: '24/7 Online ',
+    description:
+    'Access all your data, records, operations from anywhere, anytime.',
+    icon: '/send.svg', 
+  },
+]
+export const MOST_TRUSTED_RIGHT=[
+  {
+    title: 'Quick Data Migration ',
+    description:
+    'We offer free and quick data migration from papers or from old software to our Vedmarg.',
+    icon: '/feeCalculator.svg', 
+  },
+  {
+    title: 'Engage Everyone  ',
+    description:
+    'Vedmarg is designed to engage every person of your school to each and everyone.',
+    icon: '/feeCalculator.svg', 
+  },
+  {
+    title: 'Encrypted & Secured Data  ',
+    description:
+    'All the data is stored on the cloud which you can retrieve easily, anytime, from anywhere. ',
+    icon: '/feeCalculator.svg', 
+  },
+  {
+    title: 'Customized Fee Records',
+    description:
+    'Separate record of every individual student and generate excel or print as per requirement.',
+    icon: '/feeCalculator.svg', 
+  },
+]
 
 // MODULES || FEATURES SECTION
 export const FEATURES = [

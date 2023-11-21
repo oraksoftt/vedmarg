@@ -1,11 +1,15 @@
-import { YouTubeEmbed } from '@next/third-parties/google'
+import { YouTubeEmbed } from "@next/third-parties/google";
 
-  
-  const YoutubeVideoEmbed = (videoid: string,height:number =400) => {
-	return (
-		//<YouTubeEmbed videoid={videoid }"ogfYd705cRs" height={400} params="controls=0" />
-		<YouTubeEmbed videoid={videoid } height={height} params="controls=0" />
-	)
-  }
-  
-  export default YoutubeVideoEmbed
+interface YoutubeVideoProps {
+	videoid: string;
+	height?: number;
+	width?: number;
+}
+
+const YoutubeVideoEmbed = ({ videoid, height = 0, width=0 }: YoutubeVideoProps) => {
+  return <YouTubeEmbed videoid={videoid} height={height} width={width} params="controls=0" />;
+};
+
+export default YoutubeVideoEmbed;
+
+
