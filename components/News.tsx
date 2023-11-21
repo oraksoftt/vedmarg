@@ -1,3 +1,4 @@
+import { YouTubeEmbed } from "@next/third-parties/google";
 import Image from "next/image";
 
 const News = () => {
@@ -6,6 +7,7 @@ const News = () => {
     <section className="bg-neutral-50 flex-col flexCenter overflow-hidden py-7">
   <div className="text-center py-4">
     <h1 className=" text-2xl font-semibold lg:font-bold xl:max-w-[390px]">In The News</h1>
+    <YouTubeEmbed videoid="ogfYd705cRs" height={400}    />
   </div>
 
   <div className=" flexCenter max-container flex-wrap justify-center gap-5 lg:gap-10">

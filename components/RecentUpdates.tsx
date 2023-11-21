@@ -38,7 +38,7 @@ const RecentUpdates = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1500,
+    speed: 200,
     slidesToShow: slidesToShow,
     slidesToScroll: 1,  
   };
