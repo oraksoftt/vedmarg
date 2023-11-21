@@ -25,11 +25,10 @@ const MostTrusted = () => {
                         <Image
                           className="w-16 h-16 rounded-full"
                           src={data.icon}
-                          alt= {data.title}
+                          alt={data.title}
                           width={500}
                           height={500}
-                         />
-
+                        />
                       </div>
                     </div>
                     <div className="flex-1 min-w-0 ms-4">
@@ -46,7 +45,7 @@ const MostTrusted = () => {
             </ul>
           </div>
         </div>
-        <YoutubeVideoEmbed videoid="T5PV20-g-Ts" height={300} width={500} />
+        <YoutubeVideoEmbed videoid="T5PV20-g-Ts" height={400} width={400} />
       </div>
     </section>
   );
