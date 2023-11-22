@@ -20,7 +20,7 @@ export default function Home() {
     <TextWithSlider/>
     <News/>
     <DownloadsSlider />
-    <FreeDemo />
+    {/* <FreeDemo /> */}
     <MostTrusted />
     <AllinOneSolution />
     <Features />

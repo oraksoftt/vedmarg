@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden   py-24">
+    <section className="flex-col flexCenter overflow-hidden   py-7">
       <div className="   text-center py-4">
         <h1 className=" text-2xl font-semibold lg:font-bold xl:max-w-[390px]">
           80+ Modules Available
@@ -11,7 +11,7 @@ const Features = () => {
       </div>
       <div className="max-container padding-container relative w-full flex justify-end">
         <div className="z-20 flex w-full flex-col lg:w-[100%]">
-          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20">
+          <ul className="mt-5 grid gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-20">
             {FEATURES.map((feature) => (
               <FeatureItem
                 key={feature.title}
