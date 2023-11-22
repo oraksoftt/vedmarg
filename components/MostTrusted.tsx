@@ -23,11 +23,11 @@ const MostTrusted = () => {
                     <div className="flex-shrink-0">
                       <div className="  bg-blue-500 rounded-full ...">
                         <Image
-                          className="w-16 h-16 rounded-full"
+                          className="w-12 h-12 rounded-full py-3"
                           src={data.icon}
                           alt={data.title}
-                          width={500}
-                          height={500}
+                          width={10}
+                          height={10}
                         />
                       </div>
                     </div>

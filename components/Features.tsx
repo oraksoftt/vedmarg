@@ -40,7 +40,7 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
         <Image src={icon} alt="icon" width={50} height={50} />
       </div>
       <h2 className="bold-18 lg:bold-23 mt-3 capitalize">{title}</h2>
-      <p className="regular-16 mt-3 bg-white/80 text-gray-30 lg:mt-[20px] lg:bg-none">
+      <p className="regular-16 mt-3  text-gray-30 lg:mt-[20px] lg:bg-none">
         {description}
       </p>
     </li>
