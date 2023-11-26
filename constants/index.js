@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "about_us", label: "About Us" },
+  { href: "/about", key: "About", label: "About Us" },
   { href: "/", key: "features", label: "Features" },
   { href: "/", key: "download", label: "Download" },
   { href: "/", key: "media_coverage", label: "Media Coverage" },
@@ -23,6 +23,46 @@ export const DOWNLOAD_SLIDER = [
    
 ];
   
+
+// All-In-One Solution..
+export const ALLINONESOLUTION_LEFT=[
+  {
+    title: 'Manager Login', 
+    icon: '/userr.svg', 
+  },
+  {
+    title: 'Director Login', 
+    icon: '/userr.svg', 
+  },
+  {
+    title: 'Principal Login', 
+    icon: '/userr.svg', 
+  },
+  {
+    title: 'Vice-Principal Login', 
+    icon: '/userr.svg', 
+  },
+  
+]
+export const ALLINONESOLUTION_RIGHT=[
+  {
+    title: 'Head Teacher Login', 
+    icon: '/user.svg', 
+  },
+  {
+    title: 'Teacher Login', 
+    icon: '/user.svg', 
+  },
+  {
+    title: 'Front-Desk Login', 
+    icon: '/user.svg', 
+  },
+  {
+    title: 'and other employees', 
+    icon: '/user.svg', 
+  },
+  
+]
 // Why Vedmarg is Most Trusted School ERP System ?..
 export const MOST_TRUSTED_LEFT=[
   {
@@ -124,6 +164,26 @@ export const FEATURES = [
   },
 ];
 
+
+
+// ABOUT SECTION
+export const ABOUT_SLIDER_PICS = [
+  {
+    title: '',
+    image: '/Best-Faculty-Performance-of-the-Year-Dr.-Amit-Garg-1.jpg',
+     
+  },
+  {
+    title: '',
+    image: '/Young-Director-of-the-Year-Amit-Kumar.jpeg',
+     
+  },
+  {
+    title: '',
+    image: '/Young-Entrepreneur-of-the-Year-Shani-Deshwal-.jpeg',
+     
+  },
+]
 // RECENT UPDATES SECTION
 export const RECENT_UPDATES = [
   {
