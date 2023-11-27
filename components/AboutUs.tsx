@@ -8,6 +8,7 @@ import News from "./News";
 
 import { ABOUT_SLIDER_PICS } from "@/constants";
 import Image from "next/image";
+import Team from "./Team";
 
 const AboutUs = () => {
   const settings = {
@@ -26,13 +27,13 @@ const AboutUs = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1, // Adjust this for smaller screens
+          slidesToShow: 2, // Adjust this for smaller screens
         },
       },
       {
         breakpoint: 642,
         settings: {
-          slidesToShow: 1, // Adjust this for smaller screens
+          slidesToShow: 0, // Adjust this for smaller screens
         },
       },
     ],
@@ -45,7 +46,7 @@ const AboutUs = () => {
         textVariant="text-white"
         bgvariant="bg-black"
       />
-      <section className="bg-neutral-50 flex-col flexCenter overflow-hidden py-7">
+      <section className="bg-neutral-50 flex-col flexCenter overflow-hidden py-7 ">
         <div className=" flexCenter max-container flex-wrap justify-center gap-5 lg:gap-10">
           <div className="max-container padding-container relative w-full flex justify-end">
             <div className="z-20 flex w-full flex-col lg:w-[100%]">
@@ -102,7 +103,7 @@ const AboutUs = () => {
       <News />
       <section className="  flex-col flexCenter overflow-hidden py-7">
         <div className="text-center py-4">
-          <p className=" text-blue-500   font-semibold  lg:font-semibold xl:max-w-[450px]">
+           <p className=" text-blue-500   font-semibold  lg:font-semibold xl:max-w-[450px]">
             A Long Journey
           </p>
           <h1 className=" text-2xl font-semibold lg:font-bold xl:max-w-[450px]">
@@ -115,6 +116,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      <Team />
     </>
   );
 };

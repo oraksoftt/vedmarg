@@ -17,16 +17,17 @@ const Footer = () => {
               height={200}
             />
           </Link>
-        
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((columns, index) => (
               <FooterColumn key={index} title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30 items-center">
+                <ul className="text-sm bold-16 flex flex-col gap-4 text-gray-30 items-center">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link} className="">
-                      {link}
-                    </Link>
+                    <li key={link.key}> 
+                      <Link href={link.href} className="">
+                        {link.label}
+                      </Link>
+                    </li>
                   ))}
                 </ul>
               </FooterColumn>

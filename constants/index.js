@@ -11,246 +11,257 @@ export const NAV_LINKS = [
 
 // OUR DOWNLOAD SLIDER SECTION
 export const DOWNLOAD_SLIDER = [
-  '/admin-login-management-1.png',
-  '/Admit-Card-Details.png',
-  '/Class-Timetable.png',
-  '/Login-with-OTP.png',
-  '/Login-with-Password.png',
-  '/Pay-Due-Fees-Online.png',
-  '/Real-Time-Notifications.png',
-  '/Student-Dashboard.png',
-  '/Transport-Details.png',
-   
+  "/admin-login-management-1.png",
+  "/Admit-Card-Details.png",
+  "/Class-Timetable.png",
+  "/Login-with-OTP.png",
+  "/Login-with-Password.png",
+  "/Pay-Due-Fees-Online.png",
+  "/Real-Time-Notifications.png",
+  "/Student-Dashboard.png",
+  "/Transport-Details.png",
 ];
-  
 
 // All-In-One Solution..
-export const ALLINONESOLUTION_LEFT=[
+export const ALLINONESOLUTION_LEFT = [
   {
-    title: 'Manager Login', 
-    icon: '/userr.svg', 
+    title: "Manager Login",
+    icon: "/userr.svg",
   },
   {
-    title: 'Director Login', 
-    icon: '/userr.svg', 
+    title: "Director Login",
+    icon: "/userr.svg",
   },
   {
-    title: 'Principal Login', 
-    icon: '/userr.svg', 
+    title: "Principal Login",
+    icon: "/userr.svg",
   },
   {
-    title: 'Vice-Principal Login', 
-    icon: '/userr.svg', 
+    title: "Vice-Principal Login",
+    icon: "/userr.svg",
   },
-  
-]
-export const ALLINONESOLUTION_RIGHT=[
+];
+export const ALLINONESOLUTION_RIGHT = [
   {
-    title: 'Head Teacher Login', 
-    icon: '/user.svg', 
-  },
-  {
-    title: 'Teacher Login', 
-    icon: '/user.svg', 
+    title: "Head Teacher Login",
+    icon: "/user.svg",
   },
   {
-    title: 'Front-Desk Login', 
-    icon: '/user.svg', 
+    title: "Teacher Login",
+    icon: "/user.svg",
   },
   {
-    title: 'and other employees', 
-    icon: '/user.svg', 
+    title: "Front-Desk Login",
+    icon: "/user.svg",
   },
-  
-]
+  {
+    title: "and other employees",
+    icon: "/user.svg",
+  },
+];
 // Why Vedmarg is Most Trusted School ERP System ?..
-export const MOST_TRUSTED_LEFT=[
+export const MOST_TRUSTED_LEFT = [
   {
-    title: 'Easy Setup',
+    title: "Easy Setup",
     description:
-    'We offer a complete setup and proper guidance to manage your school easily.',
-    icon: '/easysetup.svg', 
+      "We offer a complete setup and proper guidance to manage your school easily.",
+    icon: "/easysetup.svg",
   },
   {
-    title: 'Responsive Web & Mobile ',
+    title: "Responsive Web & Mobile ",
     description:
-    'Vedmarg web application and mobile application are 100% responsive..',
-    icon: '/screen.svg', 
+      "Vedmarg web application and mobile application are 100% responsive..",
+    icon: "/screen.svg",
   },
   {
-    title: 'Find fee defaulters ',
+    title: "Find fee defaulters ",
     description:
-    'Vedmarg makes it easy for you to keep a check on all the fee defaulters.',
-    icon: '/eye.svg', 
+      "Vedmarg makes it easy for you to keep a check on all the fee defaulters.",
+    icon: "/eye.svg",
   },
   {
-    title: '24/7 Online ',
+    title: "24/7 Online ",
     description:
-    'Access all your data, records, operations from anywhere, anytime.',
-    icon: '/send.svg', 
+      "Access all your data, records, operations from anywhere, anytime.",
+    icon: "/send.svg",
   },
-]
-export const MOST_TRUSTED_RIGHT=[
+];
+export const MOST_TRUSTED_RIGHT = [
   {
-    title: 'Quick Data Migration ',
+    title: "Quick Data Migration ",
     description:
-    'We offer free and quick data migration from papers or from old software to our Vedmarg.',
-    icon: '/feeCalculator.svg', 
-  },
-  {
-    title: 'Engage Everyone  ',
-    description:
-    'Vedmarg is designed to engage every person of your school to each and everyone.',
-    icon: '/feeCalculator.svg', 
+      "We offer free and quick data migration from papers or from old software to our Vedmarg.",
+    icon: "/feeCalculator.svg",
   },
   {
-    title: 'Encrypted & Secured Data  ',
+    title: "Engage Everyone  ",
     description:
-    'All the data is stored on the cloud which you can retrieve easily, anytime, from anywhere. ',
-    icon: '/feeCalculator.svg', 
+      "Vedmarg is designed to engage every person of your school to each and everyone.",
+    icon: "/feeCalculator.svg",
   },
   {
-    title: 'Customized Fee Records',
+    title: "Encrypted & Secured Data  ",
     description:
-    'Separate record of every individual student and generate excel or print as per requirement.',
-    icon: '/feeCalculator.svg', 
+      "All the data is stored on the cloud which you can retrieve easily, anytime, from anywhere. ",
+    icon: "/feeCalculator.svg",
   },
-]
+  {
+    title: "Customized Fee Records",
+    description:
+      "Separate record of every individual student and generate excel or print as per requirement.",
+    icon: "/feeCalculator.svg",
+  },
+];
 
 // MODULES || FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Fee Management System',
-    icon: '/feeCalculator.svg',
-    variant: 'green',
+    title: "Fee Management System",
+    icon: "/feeCalculator.svg",
+    variant: "green",
     description:
-      'Strong fee management system to manage the balance fees, submitted fees, incoming payments, and receipts of students.',
+      "Strong fee management system to manage the balance fees, submitted fees, incoming payments, and receipts of students.",
   },
   {
-    title: 'Student Management System',
-    icon: '/StudentManagement.svg',
-    variant: 'green',
+    title: "Student Management System",
+    icon: "/StudentManagement.svg",
+    variant: "green",
     description:
       "Student management system (SMS) helps in managing all the academics, financial records of all the students.",
   },
   {
-    title: 'Teacher Management',
-    icon: '/TeacherManagment.svg',
-    variant: 'green',
+    title: "Teacher Management",
+    icon: "/TeacherManagment.svg",
+    variant: "green",
     description:
-      'You can view the schedule, reports, activities, and class timings of every single teacher using the software.',
+      "You can view the schedule, reports, activities, and class timings of every single teacher using the software.",
   },
   {
-    title: 'Push Notifications',
-    icon: '/push-notification.svg',
-    variant: 'orange',
+    title: "Push Notifications",
+    icon: "/push-notification.svg",
+    variant: "orange",
     description:
-      'It facilitates to send UNLIMITED push notifications to all students, specific students or class-wise, anytime.',
+      "It facilitates to send UNLIMITED push notifications to all students, specific students or class-wise, anytime.",
   },
 
   {
-    title: 'Exam & Results',
-    icon: '/ExamAndResult.svg',
-    variant: 'orange',
+    title: "Exam & Results",
+    icon: "/ExamAndResult.svg",
+    variant: "orange",
     description:
-      'The software allows students to give online assessments, and generate a report card of each student.',
+      "The software allows students to give online assessments, and generate a report card of each student.",
   },
   {
-    title: 'View All Features',
-    icon: '/viewAll.svg',
-    variant: 'orange',
+    title: "View All Features",
+    icon: "/viewAll.svg",
+    variant: "orange",
     description:
-      'We have a lot of features in Vedmarg School ERP. We have added 40+ modules to make everything digital..',
+      "We have a lot of features in Vedmarg School ERP. We have added 40+ modules to make everything digital..",
   },
 ];
-
-
 
 // ABOUT SECTION
 export const ABOUT_SLIDER_PICS = [
   {
-    title: '',
-    image: '/Best-Faculty-Performance-of-the-Year-Dr.-Amit-Garg-1.jpg',
-     
+    title: "",
+    image: "/Best-Faculty-Performance-of-the-Year-Dr.-Amit-Garg-1.jpg",
   },
   {
-    title: '',
-    image: '/Young-Director-of-the-Year-Amit-Kumar.jpeg',
-     
+    title: "",
+    image: "/Young-Director-of-the-Year-Amit-Kumar.jpeg",
   },
   {
-    title: '',
-    image: '/Young-Entrepreneur-of-the-Year-Shani-Deshwal-.jpeg',
-     
+    title: "",
+    image: "/Young-Entrepreneur-of-the-Year-Shani-Deshwal-.jpeg",
   },
-]
+];
+
+// TEAM MEMBER SECTION
+export const TEAM_MEMBERS = [
+  {
+    Name: "Amit Kumar",
+    Profession: "Director",
+    Linkedin_URL: "https://www.linkedin.com/in/hiamitkumar/",
+    image: "/AmitKumar.jpg",
+  },
+  {
+    Name: "Shani Deshwal",
+    Profession: "Business Head",
+    Linkedin_URL: "https://www.linkedin.com/in/shanideshwal/",
+    image: "/Shani-Deshwal-New-500x500-1.jpg",
+  },
+  {
+    Name: "Dr. Amit Garg",
+    Profession: "Legal Advisor",
+    Linkedin_URL: "https://www.linkedin.com/in/amit-garg-87461637/",
+    image: "/Amit-Garg-1.jpg",
+  },
+];
 // RECENT UPDATES SECTION
 export const RECENT_UPDATES = [
   {
-    title: 'Top Key Benefits of School Mobile Apps to Manage School Properly',
-    image: '/Top-Features-of-Vedmarg-Student-App-Exclusive-App-For-Students.jpg',
-     
+    title: "Top Key Benefits of School Mobile Apps to Manage School Properly",
+    image:
+      "/Top-Features-of-Vedmarg-Student-App-Exclusive-App-For-Students.jpg",
   },
   {
-    title: 'Download School Management Software Full Version with Source Code',
-    image: '/Fee-Management-Software.jpg',
-     
+    title: "Download School Management Software Full Version with Source Code",
+    image: "/Fee-Management-Software.jpg",
   },
   {
-    title: 'School Home Work/ Assignments Module in School ERP Software',
-    image: '/school-home-work-assignments-module-1536x768.png',
-     
+    title: "School Home Work/ Assignments Module in School ERP Software",
+    image: "/school-home-work-assignments-module-1536x768.png",
   },
   {
-    title: 'Top Features of Vedmarg Student App, Exclusive App For Students',
-    image: '/Top-Features-of-Vedmarg-Student-App-Exclusive-App-For-Students.jpg',
-     
+    title: "Top Features of Vedmarg Student App, Exclusive App For Students",
+    image:
+      "/Top-Features-of-Vedmarg-Student-App-Exclusive-App-For-Students.jpg",
   },
   {
-    title: 'Stop Chasing Payments & Do Invest in Fee Management System',
-    image: '/Stop-Chasing-Payments-Do-Invest-in-Fee-Management-System.jpg',
-     
+    title: "Stop Chasing Payments & Do Invest in Fee Management System",
+    image: "/Stop-Chasing-Payments-Do-Invest-in-Fee-Management-System.jpg",
   },
 ];
 
 // OUR CLIENTS SECTION
 export const OUR_CLIENTS = [
-  '/student-information-management-system-download-3.png',
-  '/online-school-erp-system-free-download-with-source-code-2.png',
-  '/free-school-erp-mobile-app.png',
-  '/jp-academy-free-school-management-software.png',
-  '/J-B-R-D-International-academy-school-management-system.png',
-  '/Ketan-convent-school-school-management-system.png',
+  "/student-information-management-system-download-3.png",
+  "/online-school-erp-system-free-download-with-source-code-2.png",
+  "/free-school-erp-mobile-app.png",
+  "/jp-academy-free-school-management-software.png",
+  "/J-B-R-D-International-academy-school-management-system.png",
+  "/Ketan-convent-school-school-management-system.png",
 ];
-  
+
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
     title: "COMPANY",
     links: [
-      "Home",
-      "About Us",
-      "Features",
-      "Partners",
-      "Media Coverage",
-      "Pay Online",
-      "Our Clients",
-      "FAQ",
-      "Contact Us" 
+      { href: "/home", key: "About", label: "Home" },
+      { href: "/about", key: "About", label: "About Us" },
+      { href: "/features", key: "Features", label: "Features" },
+      { href: "/partners", key: "Partners", label: "Partners" },
+      { href: "/media", key: "MediaCoverage", label: "Media Coverage" },
+      { href: "/pay-online", key: "PayOnline", label: "Pay Online" },
+      { href: "/clients", key: "OurClients", label: "Our Clients" },
+      { href: "/faq", key: "FAQ", label: "FAQ" },
+      { href: "/contact-us", key: "ContactUs", label: "Contact Us" },
     ],
   },
   {
     title: "QUICK LINKS",
     links: [
-      "Blog",
-      "Create CBSE Marksheet",
-      "Get Started For Free",
-      "Download School App",
-      "Download Student App",
-      "Important Links",
-      "Terms of Use",
-      "Refund Policy",
-      "Privacy Policy" 
+      { href: "/blog", key: "Blog", label: "Blog" },
+      { href: "/create-cbse-marksheet", key: "CreateMarksheet", label: "Create CBSE Marksheet" },
+      { href: "/get-started", key: "GetStarted", label: "Get Started For Free" },
+      { href: "/download-school-app", key: "DownloadSchoolApp", label: "Download School App" },
+      { href: "/download-student-app", key: "DownloadStudentApp", label: "Download Student App" },
+      { href: "/important-links", key: "ImportantLinks", label: "Important Links" },
+      { href: "/terms-of-use", key: "TermsOfUse", label: "Terms of Use" },
+      { href: "/refund-policy", key: "RefundPolicy", label: "Refund Policy" },
+      { href: "/privacy-policy", key: "PrivacyPolicy", label: "Privacy Policy" },
+       
     ],
   },
 ];
@@ -259,7 +270,7 @@ export const FOOTER_CONTACT_INFO = {
   title: "GET IN TOUCH",
   links: [
     { label: "Support", value: "+971-522324409" },
-    { label: "Email", value: "oraksoft@gmail.com" },    
+    { label: "Email", value: "oraksoft@gmail.com" },
     { label: "Sales-", value: "sales@gmail.com" },
     { label: "Add", value: "21 F,UAE Sharjah" },
   ],
@@ -267,5 +278,4 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: "Social",
-  
 };
