@@ -81,7 +81,7 @@ const AboutUs = () => {
                     Vedmarg is featured on ANI News, The Print, Lokmat Times,
                     Zee5 and trusted by 980+ organisations. Vedmarg is backed-up
                     with a team of 18 professional developers, designers and
-                    support executives.
+                    support executives..
                   </p>
                   <h2 className=" text-2xl font-semibold lg:font-bold xl:max-w-[390px]">
                     About TechDost
