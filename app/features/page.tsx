@@ -1,9 +1,10 @@
-import React from 'react'
+import FeaturesComplete from "@/components/FeaturesComplete";
 
-const page = () => {
+export const about = () => {
   return (
-	<div>feature page</div>
-  )
-}
-
-export default page
+    <>
+      <FeaturesComplete />
+    </>
+  );
+}; 
+export default about;

@@ -33,8 +33,8 @@ const Footer = () => {
               </FooterColumn>
             ))}
 
-            <div className="flex flex-col gap-5">
-              <div className="flex flex-col gap-5">
+            <div className=" flexCenter max-container flex-col gap-5">
+               
                 <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                   {FOOTER_CONTACT_INFO.links.map((link, index) => (
                     <div
@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                   ))}
                 </FooterColumn>
-              </div>
+              
 
               <FooterSocialMediaIcons />
             </div>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
 
         <div className=" borderTopLine" />
-        <p className="regular-14 w-full text-center text-gray-30">
+        <p className="regular-14   w-full text-center text-gray-30">
           2023 Matiullah Zahir | All rights reserved
         </p>
       </div>

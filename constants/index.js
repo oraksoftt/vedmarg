@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/about", key: "About", label: "About Us" },
-  { href: "/", key: "features", label: "Features" },
+  { href: "/features", key: "features", label: "Features" },
   { href: "/", key: "download", label: "Download" },
   { href: "/", key: "media_coverage", label: "Media Coverage" },
   { href: "/", key: "pricing", label: "Pricing" },
@@ -160,6 +160,199 @@ export const FEATURES = [
   },
 ];
 
+// MODULES || FEATURES COMPLETE SECTION
+export const FEATURES_COMPLETE = [
+  {
+    id: "01",
+    title: "Admin Login",
+    icon: "/admin-login.svg",
+    variant: "green",
+    url: "/admin-login",
+    description:
+      "Admin can create unlimited employee roles, employees, teachers and students. Admin can assign permissions anytime.",
+  },
+
+  {
+    id: "02",
+    title: "Account Login",
+    icon: "/user-login.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Accounts login to manage al financial data and records and filter out the fee defaulters and export the excel sheet.",
+  },
+
+  {
+    id: "03",
+    title: "Teacher Login",
+    icon: "/user-login.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Teacher can login and keep updating the records of students, notes, study material and can organize online quiz for students.",
+  },
+  {
+    id: "04",
+    title: "Student Login",
+    icon: "/student-login.svg",
+    variant: "green",
+    url: "",
+    description:
+      "All the information of every single student can be effectively managed and reviewed on this platform like fee records, ID cards, etc.",
+  },
+
+  {
+    id: "05",
+    title: "Fee Management",
+    icon: "/feeCalculator.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Strong fee management system to manage the balance fees, submitted fees, incoming payments, and receipts of students.",
+  },
+
+  {
+    id: "06",
+    title: "Transport System",
+    icon: "/bus.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Helps the school to manage transportation efficiently. You can check the route of every single student.",
+  },
+  {
+    id: "07",
+    title: "SMS Alerts",
+    icon: "/push-notification.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "It facilitates to send UNLIMITED push notifications to all students, specific students or class-wise, anytime.",
+  },
+  {
+    id: "08",
+    title: "Leads/Inquiry Management",
+    icon: "/inquiry.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "It facilitates to send UNLIMITED push notifications to all students, specific students or class-wise, anytime.",
+  },
+  {
+    id: "09",
+    title: "Attendance Management",
+    icon: "/checklist.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "Manage the attendance of all the students, teachers & staff members & reduce the chances of errors.",
+  },
+  {
+    id: "10",
+    title: "Expense Management",
+    icon: "/feeCalculator.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "Manage all your school's expense in Vedmarg. You can track records of monthly expense and download custom reports/excel.",
+  },
+  {
+    id: "11",
+    title: "Admin Login",
+    icon: "/admin-login.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Admin can create unlimited employee roles, employees, teachers and students. Admin can assign permissions anytime.",
+  },
+
+  {
+    id: "12",
+    title: "Account Login",
+    icon: "/user-login.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Accounts login to manage al financial data and records and filter out the fee defaulters and export the excel sheet.",
+  },
+
+  {
+    id: "13",
+    title: "Teacher Login",
+    icon: "/user-login.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Teacher can login and keep updating the records of students, notes, study material and can organize online quiz for students.",
+  },
+  {
+    id: "14",
+    title: "Student Login",
+    icon: "/student-login.svg",
+    variant: "green",
+    url: "",
+    description:
+      "All the information of every single student can be effectively managed and reviewed on this platform like fee records, ID cards, etc.",
+  },
+
+  {
+    id: "15",
+    title: "Fee Management",
+    icon: "/feeCalculator.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Strong fee management system to manage the balance fees, submitted fees, incoming payments, and receipts of students.",
+  },
+
+  {
+    id: "16",
+    title: "Transport System",
+    icon: "/bus.svg",
+    variant: "green",
+    url: "",
+    description:
+      "Helps the school to manage transportation efficiently. You can check the route of every single student.",
+  },
+  {
+    id: "17",
+    title: "SMS Alerts",
+    icon: "/push-notification.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "It facilitates to send UNLIMITED push notifications to all students, specific students or class-wise, anytime.",
+  },
+  {
+    id: "18",
+    title: "Leads/Inquiry Management",
+    icon: "/inquiry.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "It facilitates to send UNLIMITED push notifications to all students, specific students or class-wise, anytime.",
+  },
+  {
+    id: "19",
+    title: "Attendance Management",
+    icon: "/checklist.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "Manage the attendance of all the students, teachers & staff members & reduce the chances of errors.",
+  },
+  {
+    id: "20",
+    title: "Expense Management",
+    icon: "/feeCalculator.svg",
+    variant: "orange",
+    url: "",
+    description:
+      "Manage all your school's expense in Vedmarg. You can track records of monthly expense and download custom reports/excel.",
+  },
+
+];
+
 // ABOUT SECTION
 export const ABOUT_SLIDER_PICS = [
   {
@@ -197,6 +390,7 @@ export const TEAM_MEMBERS = [
     image: "/Amit-Garg-1.jpg",
   },
 ];
+
 // RECENT UPDATES SECTION
 export const RECENT_UPDATES = [
   {
@@ -238,8 +432,8 @@ export const FOOTER_LINKS = [
   {
     title: "COMPANY",
     links: [
-      { href: "/home", key: "About", label: "Home" },
-      { href: "/about", key: "About", label: "About Us" },
+      { href: "/home", key: "home", label: "Home" },
+      { href: "/about", key: "Aboutss", label: "About Us" },
       { href: "/features", key: "Features", label: "Features" },
       { href: "/partners", key: "Partners", label: "Partners" },
       { href: "/media", key: "MediaCoverage", label: "Media Coverage" },
@@ -253,15 +447,38 @@ export const FOOTER_LINKS = [
     title: "QUICK LINKS",
     links: [
       { href: "/blog", key: "Blog", label: "Blog" },
-      { href: "/create-cbse-marksheet", key: "CreateMarksheet", label: "Create CBSE Marksheet" },
-      { href: "/get-started", key: "GetStarted", label: "Get Started For Free" },
-      { href: "/download-school-app", key: "DownloadSchoolApp", label: "Download School App" },
-      { href: "/download-student-app", key: "DownloadStudentApp", label: "Download Student App" },
-      { href: "/important-links", key: "ImportantLinks", label: "Important Links" },
+      {
+        href: "/create-cbse-marksheet",
+        key: "CreateMarksheet",
+        label: "Create CBSE Marksheet",
+      },
+      {
+        href: "/get-started",
+        key: "GetStarted",
+        label: "Get Started For Free",
+      },
+      {
+        href: "/download-school-app",
+        key: "DownloadSchoolApp",
+        label: "Download School App",
+      },
+      {
+        href: "/download-student-app",
+        key: "DownloadStudentApp",
+        label: "Download Student App",
+      },
+      {
+        href: "/important-links",
+        key: "ImportantLinks",
+        label: "Important Links",
+      },
       { href: "/terms-of-use", key: "TermsOfUse", label: "Terms of Use" },
       { href: "/refund-policy", key: "RefundPolicy", label: "Refund Policy" },
-      { href: "/privacy-policy", key: "PrivacyPolicy", label: "Privacy Policy" },
-       
+      {
+        href: "/privacy-policy",
+        key: "PrivacyPolicy",
+        label: "Privacy Policy",
+      },
     ],
   },
 ];
@@ -279,3 +496,63 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: "Social",
 };
+
+// TIMELINE SECTION
+export const TIMELINE = [
+  {
+    year: "2014",
+    title: "Started Freelancing",
+    area: "left",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+  {
+    year: "2017",
+    title: "Company Registered",
+    area: "right",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+  {
+    year: "2018",
+    title: "Our 100th Client",
+    area: "left",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+  {
+    year: "2019",
+    title: "New Office and Team of 6",
+    area: "right",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+  {
+    year: "2020",
+    title: "Team of 12 Creative Minds",
+    area: "left",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+  {
+    year: "2021",
+    title: "Team of 18 Dedicated People",
+    area: "right",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+  {
+    year: "2022",
+    title: "Digital Partner of 2 Universities",
+    area: "left",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+  {
+    year: "2023",
+    title: "Featured on ANI, The Print",
+    area: "right",
+    description:
+      "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
+  },
+];

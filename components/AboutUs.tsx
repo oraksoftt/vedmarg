@@ -9,6 +9,7 @@ import News from "./News";
 import { ABOUT_SLIDER_PICS } from "@/constants";
 import Image from "next/image";
 import Team from "./Team";
+import Timeline from "./Timeline";
 
 const AboutUs = () => {
   const settings = {
@@ -103,16 +104,16 @@ const AboutUs = () => {
       <News />
       <section className="  flex-col flexCenter overflow-hidden py-7">
         <div className="text-center py-4">
-           <p className=" text-blue-500   font-semibold  lg:font-semibold xl:max-w-[450px]">
+          <p className=" text-blue-500   font-semibold  lg:font-semibold xl:max-w-[450px]">
             A Long Journey
           </p>
           <h1 className=" text-2xl font-semibold lg:font-bold xl:max-w-[450px]">
             How We Started
           </h1>
         </div>
-        <div className="  max-container padding-container flex flex-col gap-10 py-10   lg:py-10 xl:flex-row">
-          <div className="w-full max-w-md p-4  rounded-lg   sm:p-8 ">
-            <div className="flow-root"></div>
+        <div className="max-container padding-container relative w-full flex justify-end">
+          <div className="z-20 flex w-full flex-col lg:w-[100%]">
+            <Timeline />
           </div>
         </div>
       </section>
