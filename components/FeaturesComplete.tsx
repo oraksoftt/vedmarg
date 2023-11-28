@@ -26,7 +26,7 @@ const Features = () => {
                 <>
                  
                   {/* <Link  href={`/features/${feature.id}`} key={feature.title} target="_blank"> */}
-                  <Link  href='#' key={feature.title} target="_blank">
+                  <Link  href='#' key={feature.id} target="_blank">
                     <FeatureItem
                       key={feature.title}
                       title={feature.title}
