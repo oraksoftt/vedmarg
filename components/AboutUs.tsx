@@ -58,6 +58,7 @@ const AboutUs = () => {
                       {ABOUT_SLIDER_PICS.map((value, index) => (
                         <div key={index} className="py-2 pl-2 pr-2 ">
                           <Image
+                            key={index}
                             src={value.image}
                             alt={value.title}
                             width={1000}

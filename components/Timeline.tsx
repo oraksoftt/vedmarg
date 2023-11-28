@@ -60,7 +60,8 @@ const Timeline = () => {
           {TIMELINE.map((timeline, key) => (
             <div
               className={`flex ${timeline.area == 'left' ? 'flex-row-reverse' : 'flex-row'} md:contents`}
-              key={key}
+              //key={key}
+              key={timeline.title}
             >
               {timeline.area == 'left' ? (
                 <div className="bg-white col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">

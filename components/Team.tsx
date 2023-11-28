@@ -18,7 +18,8 @@ const Team = () => {
           <ul className="mt-5 grid gap-10 md:grid-cols-2 lg:grid-cols-3  ">
             {TEAM_MEMBERS.map((value, index) => (
               <li
-                key={index}
+                //key={index}
+                key={value.Name}
                 className="flex w-full flex-1 flex-col items-center"
               >
                 <div className="shadow-md p-3 lg:p-6  flex items-center justify-center">
