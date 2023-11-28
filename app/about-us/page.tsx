@@ -1,12 +1,11 @@
-import About from "@/components/AboutUs";
+import AboutUs from "@/components/AboutUs";
  
-
-export const about = () => {
+const aboutus = () => {
   return (
     <>
-      <About />
+      <AboutUs />
     </>
   );
 };
 
-export default about;
+export default aboutus; 

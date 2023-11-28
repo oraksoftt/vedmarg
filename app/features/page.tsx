@@ -1,10 +1,10 @@
 import FeaturesComplete from "@/components/FeaturesComplete";
 
-export const about = () => {
+const features = () => {
   return (
     <>
       <FeaturesComplete />
     </>
   );
-}; 
-export default about;
+};
+export default features;
