@@ -13,7 +13,7 @@ const PageTitleHeader = ({ title, bgvariant, textVariant }: PageTitleHeader) => 
     >
       <div className="text-center py-4">
         <h1
-          className={`${textVariant}  text-5xl font-semibold lg:font-bold xl:max-w-[390px]`}
+          className={`${textVariant}  text-5xl font-semibold lg:font-bold xl:max-w-xl`}
         >
           {title}
         </h1>

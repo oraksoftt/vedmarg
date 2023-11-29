@@ -4,7 +4,7 @@ const NavbarStrip = () => {
   return (
 	<>
  {/* <div className=" bg-black text-white flexBetween max-max-container padding-container relative z-30 py-2"> */}
- <div className="  bg-black text-white flex flex-row-reverse gap-3  space-x-reverse   padding-container relative z-30 py-2">
+ <div className="   bg-black text-white flex flex-row-reverse gap-3  space-x-reverse   padding-container relative z-10 py-2">
             {/* Youtube */}
             <svg
             xmlns="http://www.w3.org/2000/svg"

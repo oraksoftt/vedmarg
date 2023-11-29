@@ -1,5 +1,6 @@
-import AboutUs from "@/components/AboutUs";
- 
+import dynamic from "next/dynamic";
+const AboutUs = dynamic(() => import("@/components/AboutUs"));
+
 const aboutus = () => {
   return (
     <>
@@ -8,4 +9,4 @@ const aboutus = () => {
   );
 };
 
-export default aboutus; 
+export default aboutus;

@@ -3,10 +3,10 @@ export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/about-us", key: "About", label: "About Us" },
   { href: "/features", key: "features", label: "Features" },
-  { href: "/", key: "download", label: "Download" },
-  { href: "/", key: "media_coverage", label: "Media Coverage" },
-  { href: "/", key: "pricing", label: "Pricing" },
-  { href: "/", key: "clients", label: "Clients" },
+  { href: "/downloads", key: "download", label: "Downloads" },
+  { href: "/media-coverage", key: "media-coverage", label: "Media Coverage" },
+  { href: "/pricing", key: "pricing", label: "Pricing" },
+  { href: "/clients", key: "clients", label: "Clients" },
 ];
 
 // OUR DOWNLOAD SLIDER SECTION
@@ -350,7 +350,6 @@ export const FEATURES_COMPLETE = [
     description:
       "Manage all your school's expense in Vedmarg. You can track records of monthly expense and download custom reports/excel.",
   },
-
 ];
 
 // ABOUT SECTION
@@ -391,6 +390,60 @@ export const TEAM_MEMBERS = [
   },
 ];
 
+// DOWNLOAD & HIGHLIGHT PAGE SECTION
+export const DONWLOADS_AND_HIGHLIGHT = [
+  {
+    largeURL: "/Login-with-Password.png",
+    thumbnailURL: "/Login-with-Password.png",
+    width: 330,
+    height: 705,
+    type:'large',
+  },
+  {
+    largeURL: "/vedmarg-dashboard-home-screen-detailed-page.png",
+    thumbnailURL: "/vedmarg-dashboard-home-screen-detailed-page.png",
+    width: 500,
+    height: 300,
+    type:'small',
+  },
+  {
+    largeURL: "/Login-with-OTP.png",
+    thumbnailURL: "/Login-with-OTP.png",
+    width: 330,
+    height: 705,
+    type:'large',
+    
+  },
+  {
+    largeURL: "/student-fee-management-system-free-download-nepal-3.svg",
+    thumbnailURL: "/student-fee-management-system-free-download-nepal-3.svg",
+    width: 300,
+    height: 500,
+    type:'small',
+  },
+  {
+    largeURL: "/Student-Dashboard.png",
+    thumbnailURL: "/Student-Dashboard.png",
+    width: 330,
+    height: 705,
+    type:'large',
+  },
+  {
+    largeURL: "/student-fee-management-system-free-download-nepal-1.svg",
+    thumbnailURL: "/student-fee-management-system-free-download-nepal-1.svg",
+    width: 300,
+    height: 500,
+    type:'small',
+  },
+  {
+    largeURL: "/school-id-card-design-sample-download-psd-file-software-download-3.svg",
+    thumbnailURL: "/school-id-card-design-sample-download-psd-file-software-download-3.svg",
+    width: 300,
+    height: 500,
+    type:'small',
+  },
+];
+
 // RECENT UPDATES SECTION
 export const RECENT_UPDATES = [
   {
@@ -427,75 +480,6 @@ export const OUR_CLIENTS = [
   "/Ketan-convent-school-school-management-system.png",
 ];
 
-// FOOTER SECTION
-export const FOOTER_LINKS = [
-  {
-    title: "COMPANY",
-    links: [
-      { href: "/home", key: "home", label: "Home" },
-      { href: "/about", key: "Aboutss", label: "About Us" },
-      { href: "/features", key: "Features", label: "Features" },
-      { href: "/partners", key: "Partners", label: "Partners" },
-      { href: "/media", key: "MediaCoverage", label: "Media Coverage" },
-      { href: "/pay-online", key: "PayOnline", label: "Pay Online" },
-      { href: "/clients", key: "OurClients", label: "Our Clients" },
-      { href: "/faq", key: "FAQ", label: "FAQ" },
-      { href: "/contact-us", key: "ContactUs", label: "Contact Us" },
-    ],
-  },
-  {
-    title: "QUICK LINKS",
-    links: [
-      { href: "/blog", key: "Blog", label: "Blog" },
-      {
-        href: "/create-cbse-marksheet",
-        key: "CreateMarksheet",
-        label: "Create CBSE Marksheet",
-      },
-      {
-        href: "/get-started",
-        key: "GetStarted",
-        label: "Get Started For Free",
-      },
-      {
-        href: "/download-school-app",
-        key: "DownloadSchoolApp",
-        label: "Download School App",
-      },
-      {
-        href: "/download-student-app",
-        key: "DownloadStudentApp",
-        label: "Download Student App",
-      },
-      {
-        href: "/important-links",
-        key: "ImportantLinks",
-        label: "Important Links",
-      },
-      { href: "/terms-of-use", key: "TermsOfUse", label: "Terms of Use" },
-      { href: "/refund-policy", key: "RefundPolicy", label: "Refund Policy" },
-      {
-        href: "/privacy-policy",
-        key: "PrivacyPolicy",
-        label: "Privacy Policy",
-      },
-    ],
-  },
-];
-
-export const FOOTER_CONTACT_INFO = {
-  title: "GET IN TOUCH",
-  links: [
-    { label: "Support", value: "+971-522324409" },
-    { label: "Email", value: "oraksoft@gmail.com" },
-    { label: "Sales-", value: "sales@gmail.com" },
-    { label: "Add", value: "21 F,UAE Sharjah" },
-  ],
-};
-
-export const SOCIALS = {
-  title: "Social",
-};
 
 // TIMELINE SECTION
 export const TIMELINE = [
@@ -556,3 +540,76 @@ export const TIMELINE = [
       "We started freelancing in 2014 for web designing, web development, SEO services and social media marketing services. We have worked with more than 650+ clients from July, 2014 to August, 2017.",
   },
 ];
+
+
+
+
+// FOOTER SECTION
+export const FOOTER_LINKS = [
+  {
+    title: "COMPANY",
+    links: [
+      { href: "/home", key: "home", label: "Home" },
+      { href: "/about", key: "Aboutss", label: "About Us" },
+      { href: "/features", key: "Features", label: "Features" },
+      { href: "/partners", key: "Partners", label: "Partners" },
+      { href: "/media-coverage", key: "media-coverage", label: "Media Coverage" },
+      { href: "/pay-online", key: "PayOnline", label: "Pay Online" },
+      { href: "/clients", key: "clients", label: "Our Clients" },
+      { href: "/faq", key: "FAQ", label: "FAQ" },
+      { href: "/contact-us", key: "contact-us", label: "Contact Us" },
+    ],
+  },
+  {
+    title: "QUICK LINKS",
+    links: [
+      { href: "/blog", key: "Blog", label: "Blog" },
+      {
+        href: "/create-cbse-marksheet",
+        key: "CreateMarksheet",
+        label: "Create CBSE Marksheet",
+      },
+      {
+        href: "/get-started",
+        key: "GetStarted",
+        label: "Get Started For Free",
+      },
+      {
+        href: "/download-school-app",
+        key: "DownloadSchoolApp",
+        label: "Download School App",
+      },
+      {
+        href: "/download-student-app",
+        key: "DownloadStudentApp",
+        label: "Download Student App",
+      },
+      {
+        href: "/important-links",
+        key: "ImportantLinks",
+        label: "Important Links",
+      },
+      { href: "/terms-of-use", key: "TermsOfUse", label: "Terms of Use" },
+      { href: "/refund-policy", key: "RefundPolicy", label: "Refund Policy" },
+      {
+        href: "/privacy-policy",
+        key: "PrivacyPolicy",
+        label: "Privacy Policy",
+      },
+    ],
+  },
+];
+
+export const FOOTER_CONTACT_INFO = {
+  title: "GET IN TOUCH",
+  links: [
+    { label: "Support", value: "+971-522324409" },
+    { label: "Email", value: "oraksoft@gmail.com" },
+    { label: "Sales-", value: "sales@gmail.com" },
+    { label: "Add", value: "21 F,UAE Sharjah" },
+  ],
+};
+
+export const SOCIALS = {
+  title: "Social",
+};

@@ -1,4 +1,5 @@
-import FeaturesComplete from "@/components/FeaturesComplete";
+import dynamic from "next/dynamic";
+const FeaturesComplete = dynamic(() => import("@/components/FeaturesComplete"));
 
 const features = () => {
   return (
