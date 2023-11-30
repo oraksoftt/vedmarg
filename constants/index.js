@@ -6,7 +6,7 @@ export const NAV_LINKS = [
   { href: "/downloads", key: "download", label: "Downloads" },
   { href: "/media-coverage", key: "media-coverage", label: "Media Coverage" },
   { href: "/pricing", key: "pricing", label: "Pricing" },
-  { href: "/clients", key: "clients", label: "Clients" },
+  { href: "/our-clients", key: "our-clients", label: "Clients" },
 ];
 
 // OUR DOWNLOAD SLIDER SECTION
@@ -22,6 +22,130 @@ export const DOWNLOAD_SLIDER = [
   "/Transport-Details.png",
 ];
 
+// HOW_TO_START SECTION..
+export const HOW_TO_START = [
+  {
+    Header: "Just follow the below steps:",
+    title: "Just select the package as per your requirements",
+  },
+  {
+    Header: "",
+    title: "On the payment page, enter your mobile number and email address.",
+  },
+  {
+    Header: "",
+    title:
+      "Complete the payment using online payment gateway (100% secured payment)",
+  },
+  {
+    Header: "",
+    title:
+      "After successful payment, you will get an email with the purchase confirmation from company",
+  },
+  {
+    Header: "",
+    title:
+      "Our team executive will call you for further setup and data migration or uploading.",
+  },
+  {
+    Header: "",
+    title:
+      "Don’t worry! We are all set to guide and help you throughout this process and complete session.",
+  },
+  {
+    Header: "For any query:",
+    title: "",
+  },
+  {
+    Header: "",
+    title: "Call: +91-7500996633, +91-9897033994",
+  },
+  {
+    Header: "",
+    title: "WhatsApp: Live Chat on WhatsApp",
+  },
+  {
+    Header: "",
+    title: "Email: support@vedmarg.com / business@techdost.com",
+  },
+];
+// All-In-One PRICING..
+export const ALLINONESOLUTION_PRICING = [
+  {
+    title:
+      "Logins: Admin, Principal, Accounts, Teacher, Student (Mobile/Username, and Password)",
+  },
+  {
+    title: "Mobile Application Available",
+  },
+  {
+    title: "OTPs Based login also available",
+  },
+  {
+    title: "Class and section management",
+  },
+  {
+    title: "Single click excel file upload",
+  },
+  {
+    title: "Single click excel download (20+ filters)",
+  },
+  {
+    title: "Custom excel file download (select fields as per requirements)",
+  },
+  {
+    title: "Student Bulk Edit",
+  },
+  {
+    title: "Teacher management",
+  },
+  {
+    title:
+      "Student management (academics, Documents, registration, parents/guardien details etc, )",
+  },
+  {
+    title:
+      "Fee management (monthly, quarterly, separate, annually, last year balance etc)",
+  },
+  {
+    title:
+      "Transport (route wise, driver wise, KMs wise charges, driver details etc)",
+  },
+  {
+    title: "Marksheet and Transfer Certificate (TC)",
+  },
+  {
+    title: "Date-sheet and Admit Cards",
+  },
+  {
+    title: " ID Cards (Horizontal and Vertical design)",
+  },
+  {
+    title: "Study material (pdf, doc, ppt, docx, etc)",
+  },
+  {
+    title:
+      "Reports (Fee defaulter, free reports - month wise, class wise, student wise, section wise etc)",
+  },
+  {
+    title: "Student promotion with class",
+  },
+  {
+    title: "Class section transfer",
+  },
+  {
+    title: "Payment gateway",
+  },
+  {
+    title: "All upcoming features",
+  },
+  {
+    title: "Support via Phone, WhatsApp, Anydesk",
+  },
+  {
+    title: "18% taxes applicable",
+  },
+];
 // All-In-One Solution..
 export const ALLINONESOLUTION_LEFT = [
   {
@@ -397,50 +521,51 @@ export const DONWLOADS_AND_HIGHLIGHT = [
     thumbnailURL: "/Login-with-Password.png",
     width: 330,
     height: 705,
-    type:'large',
+    type: "large",
   },
   {
     largeURL: "/vedmarg-dashboard-home-screen-detailed-page.png",
     thumbnailURL: "/vedmarg-dashboard-home-screen-detailed-page.png",
     width: 500,
     height: 300,
-    type:'small',
+    type: "small",
   },
   {
     largeURL: "/Login-with-OTP.png",
     thumbnailURL: "/Login-with-OTP.png",
     width: 330,
     height: 705,
-    type:'large',
-    
+    type: "large",
   },
   {
     largeURL: "/student-fee-management-system-free-download-nepal-3.svg",
     thumbnailURL: "/student-fee-management-system-free-download-nepal-3.svg",
     width: 300,
     height: 500,
-    type:'small',
+    type: "small",
   },
   {
     largeURL: "/Student-Dashboard.png",
     thumbnailURL: "/Student-Dashboard.png",
     width: 330,
     height: 705,
-    type:'large',
+    type: "large",
   },
   {
     largeURL: "/student-fee-management-system-free-download-nepal-1.svg",
     thumbnailURL: "/student-fee-management-system-free-download-nepal-1.svg",
     width: 300,
     height: 500,
-    type:'small',
+    type: "small",
   },
   {
-    largeURL: "/school-id-card-design-sample-download-psd-file-software-download-3.svg",
-    thumbnailURL: "/school-id-card-design-sample-download-psd-file-software-download-3.svg",
+    largeURL:
+      "/school-id-card-design-sample-download-psd-file-software-download-3.svg",
+    thumbnailURL:
+      "/school-id-card-design-sample-download-psd-file-software-download-3.svg",
     width: 300,
     height: 500,
-    type:'small',
+    type: "small",
   },
 ];
 
@@ -479,8 +604,242 @@ export const OUR_CLIENTS = [
   "/J-B-R-D-International-academy-school-management-system.png",
   "/Ketan-convent-school-school-management-system.png",
 ];
+// OUR CLIENTS COMPLETE SECTION
+export const OUR_CLIENTS_COMPLETE = [
+  "/jp-academy-free-school-management-software.png",
+  "/online-school-erp-system-free-download-with-source-code-2.png",
+  "/free-school-erp-mobile-app.png",
+  "/SR-Global-School.png",
+  "/ignited-minds-mobile-school-erp-application-free-download.png",
+  "/radiance-academy.png",
+  "/Maharana-Pratap-High-School.png",
+  "/Ramhari-Maha-Vidyaalay.png",
+  "/student-fee-management-software-free-download-3.png",
+  "/SMT-Gulab-Devi-Inter-College.png",
+  "/NBS-Convent-School.png",
+  "/Maa-Gyaneshwari-Childrens-ACademy.png",
+  "/S-R-Public-School.png",
+  "/Late-Jawahar-Singh-Yadav-Inter-College.png",
+  "/student-information-management-system-download-2.png",
+  "/student-fee-management-software-free-download-1.png",
+  "/NBS-Convent-School-2.png",
+  "/GD-Memorial-Public-School.png",
+  "/Swami-Vivekanand-Gurukul-Vidhya-Mandir-School.png",
+  "/MBD-Girls-Inermediate-College.png",
+  "/online-school-erp-system-free-download-with-source-code-1.png",
+  "/student-information-management-system-download-3.png",
+  "/TES-Public-School.png",
+  "/student-information-management-system-download-1.png",
+  "/SPC-Academy-Nigoh.png",
+  "/Ramkali-Public-School.png",
+  "/online-school-erp-system-free-download-with-source-code-3.png",
+  "/New-Life-Public-School.png",
+  "/online-school-erp-system-free-download-with-source-code-5.png",
+  "/online-school-erp-system-free-download-with-source-code-4.png",
+  "/KN-Public-School.png",
+  "/free-school-management-software-with-source-code.png",
+  "/jpd-public-school.png",
+  "/Learners-Academy.png",
+  "/SDML-Gurukulam-Public-School.png",
+  "/divine-public-school-school-management-system-pratapgarh.png",
+  "/Anand-Public-school-management-system.png",
+  "/amar-jyoti-vidyapeeth-school-management-system.png",
+  "/Early-child-academy-school-student-management-system.png",
+  "/evanka-school-student-management-system.png",
+  "/future-aspire-academy-school-student-management-system.png",
+  "/Ketan-convent-school-school-management-system.png",
+  "/gyan-ganga-public-school-school-management-system.png",
+  "/geetanjali-high-school-student-management-system.png",
+  "/J-B-R-D-International-academy-school-management-system.png",
+  "/luxmi-narayan-inter-college-school-management-system-1.png",
+  "/knowledge-power-school-management-system.png",
+  "/gyanodaya-classes-coaching-management-software.png",
+  "/lovely-shastri-vidya-mandir-school-school-management-software.png",
+  "/rajbali-smarak-public-inter-college-school-management-software.png",
+  "/my-school-and-hostel-school-management-system.png",
+  "/Lord-krishna-public-school-school-management-system.png",
+  "/raj-public-sec-school-management-software.png",
+  "/tarun-public-se-sec-school-management-software.png",
+  "/skypro-education-school-management-software.png",
+  "/J-B-R-D-International-academy-school-management-system.png",
+  "/talent-public-school-school-management-system.png",
+  "/TVPS-future-nation-school-management-software.png",
+  "/republic-english-medium-school-student-management-system.png",
+  "/sss-shikshan-sansthan-school-management-system.png",
+];
 
+// LAUNCH STUDENT APP  SECTION
+export const LAUNCH_STUDENT_APP = [
+  {
+    URL: "https://www.aninews.in/news/business/business/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142205/",
+    image: "/ani-news-school-management-software-fee-management-software.png",
+  },
+  {
+    URL: "https://government.economictimes.indiatimes.com/news/education/techdost-empowering-schools-across-india-with-vedmargs-student-management-system-module/99507035",
+    image:
+      "/india-times-vedmarg-techdost-school-management-software-download.png",
+  },
+  {
+    URL: "https://www.zee5.com/articles/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software",
+    image: "/zee5-teacher-management-software-android-app.png",
+  },
+  {
+    URL: "https://www.punjablive.news/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image: "/latestly-attendance-management-software.png",
+  },
+  {
+    URL: "https://www.westbengalkhabar.in/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image: "/online-school-management-software-download-with-source-code.png",
+  },
+  {
+    URL: "https://m.dailyhunt.in/news/india/english/ani67917250816496966-epaper-dh448c3797a13d4f32b1d2367d0d72a726/techdost+launches+vedmarg+student+app+a+dedicated+app+for+students+with+school+management+software-newsid-n484924504",
+    image: "/dailyhunt-free-school-management-software-.png",
+  },
+  {
+    URL: "https://www.rajasthankikhabar.com/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image:
+      "/online-student-management-software-download-for-free-with-source-code.png",
+  },
+  {
+    URL: "https://www.odishapost.news/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image: "/school-database-software-for-school-college-student.png",
+  },
+  {
+    URL: "https://www.jharkhandtimes.in/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image: "/online-software-for-school-management.png",
+  },
+  {
+    URL: "https://www.kashmirnewsline.in/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image:
+      "/web-based-school-management-system-with-mobile-application-free-download.png",
+  },
+  {
+    URL: "https://www.madhyapradeshchronicle.com/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image:
+      "/madhya-pradesh-chronicle-fingerprint-attendance-machine-buy-online.png",
+  },
+  {
+    URL: "https://www.haryanatoday.in/news/techdost-launches-vedmarg-student-app-a-dedicated-app-for-students-with-school-management-software20230329142159/",
+    image: "/best-school-management-software.png",
+  },
+  {
+    URL: "https://khabreelal.com/education-job/techdost-launches-%E2%80%98vedmarg-student-app%E2%80%99-a-dedicated-app-for/cid10421504.htm",
+    image: "/khabreelal-free-school-management-software.png",
+  },
+];
 
+// LAUNCH SCHOOL ERP SECTION
+export const LAUNCH_SCHOOL_ERP = [
+  {
+    URL: "https://www.aninews.in/news/business/business/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165513/",
+    image:
+      "/ani-news-network-vedmarg-attendance-management-system-school-download.jpg",
+  },
+  {
+    URL: "https://government.economictimes.indiatimes.com/news/education/techdost-empowering-schools-across-india-with-vedmargs-student-management-system-module/99507035",
+    image: "/school-management-software-free-download-india-times.jpg",
+  },
+  {
+    URL: "https://www.zee5.com/articles/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms",
+    image: "/zee5-logo-download-school-management-system.jpg",
+  },
+  {
+    URL: "https://theprint.in/ani-press-releases/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms/1357141/",
+    image: "/the-print-vedmarg-school-management-system-free.jpg",
+  },
+  {
+    URL: "https://government.economictimes.indiatimes.com/news/education/techdost-empowering-schools-across-india-with-vedmargs-student-management-system-module/99507035",
+    image: "/school-management-software-free-download-the-economic-times.jpg",
+  },
+  {
+    URL: "https://www.punjablive.news/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image:
+      "/punjabi-live-vedmarg-attendance-management-system-school-download.jpg",
+  },
+  {
+    URL: "https://www.madhyapradeshchronicle.com/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/madhya-pradesh-vedmarg-school-management-erp-with-lms.jpg",
+  },
+  {
+    URL: "https://www.lokmattimes.com/business/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms/",
+    image: "/Lokmat-times-news-agency-logo-school-management-system.jpg",
+  },
+  {
+    URL: "https://khabreelal.com/tech/Vedmarg-is-very-important-software-for-school-colleges-know/cid8016439.htm",
+    image: "/khabreelal-digital-marketing-company.jpg",
+  },
+  {
+    URL: "https://www.haryanatoday.in/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image:
+      "/haryana-today-vedmarg-download-school-management-software-nepal.jpg",
+  },
+  {
+    URL: "https://www.kashmirnewsline.in/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/kashmir-newsline-vedmarg-download-school-management-system.jpg",
+  },
+  {
+    URL: "https://www.maharashtrasamachar.com/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/maharashtra-samachar-vedmarg-school-management-system-free.jpg",
+  },
+  {
+    URL: "https://www.westbengalkhabar.in/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/west-bengal-vedmarg-school-management-software-free.jpg",
+  },
+  {
+    URL: "https://news.webindia123.com/news/Articles/Business/20230206/4035735.html",
+    image:
+      "/web-india-123-vedmarg-download-school-management-software-nepal.jpg",
+  },
+  {
+    URL: "https://www.northeasttimes.in/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/northeast-times-vedmarg-school-management-erp-with-lms.jpg",
+  },
+  {
+    URL: "https://divyavishwas.com/school-management-software-institute-erp/",
+    image: "/divya-vishwas-website-design-company.jpg",
+  },
+  {
+    URL: "https://www.odishapost.news/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/odisha-post-vedmarg-school-management-system-free.jpg",
+  },
+  {
+    URL: "https://www.floridabreakingnews.com/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image:
+      "/florida-breaking-news-vedmarg-fee-management-system-school-download.jpg",
+  },
+  {
+    URL: "https://www.southindianews.in/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/south-india-news-vedmarg-school-management-software-free.jpg",
+  },
+  {
+    URL: "https://www.rajasthankikhabar.com/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image:
+      "/rajasthan-khabar-vedmarg-exam-management-system-school-download.jpg",
+  },
+  {
+    URL: "https://www.londonchannelnews.com/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image:
+      "/london-channel-news-vedmarg-attendance-management-system-school-download.jpg",
+  },
+  {
+    URL: "https://www.thesabera.com/article/delhi-ncr-based-it-company-techdost-launched-a-new-product-vedmarg-a-cloud-based-school-erp-software/",
+    image: "/the-sabera-social-media-marketing-company.jpg",
+  },
+  {
+    URL: "https://www.europeansuntimes.com/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image:
+      "/european-sun-times-vedmarg-fee-management-system-school-download.jpg",
+  },
+  {
+    URL: "https://www.jharkhandtimes.in/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image: "/jharkhand-times-vedmarg-fee-management-system-school-download.jpg",
+  },
+  {
+    URL: "https://www.britishcolumbiatimes.com/news/techdost-launched-vedmarg-a-cloud-based-school-management-system-school-erp-software-with-lms20230206165510/",
+    image:
+      "/british-news-network-vedmarg-fee-management-system-school-download.jpg",
+  },
+];
 // TIMELINE SECTION
 export const TIMELINE = [
   {
@@ -541,21 +900,22 @@ export const TIMELINE = [
   },
 ];
 
-
-
-
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
     title: "COMPANY",
     links: [
-      { href: "/home", key: "home", label: "Home" },
-      { href: "/about", key: "Aboutss", label: "About Us" },
+      { href: "/", key: "home", label: "Home" },
+      { href: "/about-us", key: "about-us", label: "About Us" },
       { href: "/features", key: "Features", label: "Features" },
       { href: "/partners", key: "Partners", label: "Partners" },
-      { href: "/media-coverage", key: "media-coverage", label: "Media Coverage" },
+      {
+        href: "/media-coverage",
+        key: "media-coverage",
+        label: "Media Coverage",
+      },
       { href: "/pay-online", key: "PayOnline", label: "Pay Online" },
-      { href: "/clients", key: "clients", label: "Our Clients" },
+      { href: "/our-clients", key: "our-clients", label: "Our Clients" },
       { href: "/faq", key: "FAQ", label: "FAQ" },
       { href: "/contact-us", key: "contact-us", label: "Contact Us" },
     ],

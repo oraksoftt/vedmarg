@@ -1,9 +1,11 @@
-import React from 'react'
-
-const Pricing = () => {
+import dynamic from "next/dynamic";
+const Pricing = dynamic(() => import("@/components/pricing/Pricing"));
+const Pricing_Page = () => {
   return (
-	<div>Pricing</div>
-  )
-}
+    <>
+      <Pricing />
+    </>
+  );
+};
 
-export default Pricing
+export default Pricing_Page;

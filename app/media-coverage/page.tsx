@@ -1,9 +1,11 @@
-import React from 'react'
-
-const MediaCoverage = () => {
+import dynamic from "next/dynamic";
+const MediaCoverage = dynamic(  () => import("@/components/MediaCoverage/MediaCoverage"));
+const MediaCoverag = () => {
   return (
-	<div>MediaCoverage</div>
+    <>
+    < MediaCoverage />
+  </>
   )
 }
 
-export default MediaCoverage
+export default MediaCoverag

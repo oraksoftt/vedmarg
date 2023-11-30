@@ -4,12 +4,9 @@ import "./globals.css";
 //import Footer from "@/components/Footer";
 import NavbarStrip from "@/components/NavbarStrip";
 
-
-import dynamic from "next/dynamic"; 
+import dynamic from "next/dynamic";
 const Navbar = dynamic(() => import("@/components/Navbar"));
 const Footer = dynamic(() => import("@/components/Footer"));
-
-
 
 export const metadata: Metadata = {
   title: "vedmarg",
@@ -24,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-       <NavbarStrip />
+        <NavbarStrip />
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
