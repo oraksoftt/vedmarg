@@ -32,7 +32,7 @@ const Pricing = () => {
             <br /> per year
           </p>
 
-          <ul className="px-5  max-w-md divide-y divide-gray-200 dark:divide-gray-700 text-center border border-gray-300  ">
+          <ul className="px-5  max-w-lg divide-y divide-gray-200 dark:divide-gray-700 text-center border border-gray-300  ">
             {ALLINONESOLUTION_PRICING.map((data, index) => (
               <li key={index} className="py-3 sm:py-4">
                 <div className="flex items-center space-x-4 rtl:space-x-reverse">

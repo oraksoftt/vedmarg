@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,33 +13,57 @@ import Team from "./Team";
 import Timeline from "./Timeline";
 
 const AboutUs = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 500); // Set breakpoint for mobile view
+    };
+
+    handleResize(); // Set initial state
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const settings = {
     dots: false,
     infinite: true,
     speed: 200,
-
     autoplay: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2, // Adjust this for smaller screens
-        },
-      },
-      {
-        breakpoint: 642,
-        settings: {
-          slidesToShow: 0, // Adjust this for smaller screens
-        },
-      },
-    ],
+    slidesToShow: isMobile ? 0 : 1, // Show 1 slide for larger screens, 0 for mobile
   };
+
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   speed: 200,
+
+  //   autoplay: true,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 3,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         slidesToShow: 2, // Adjust this for smaller screens
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 500,
+  //       settings: {
+  //         slidesToShow: 1, // Adjust this for smaller screens
+  //       },
+  //     },
+     
+  //   ],
+  // };
 
   return (
     <>
@@ -51,10 +76,10 @@ const AboutUs = () => {
         <div className=" flexCenter max-container flex-wrap justify-center gap-5 lg:gap-10">
           <div className="max-container padding-container relative w-full flex justify-end">
             <div className="z-20 flex w-full flex-col lg:w-[100%]">
-              <ul className="mt-5 grid gap-10 md:grid-cols-1 lg:grid-cols-2 lg:gap-20">
+              <ul className="mt-5 grid  sm:grid-cols-1   lg:grid-cols-2 lg:gap-20">
                 <li className="flex w-full flex-1 flex-col items-center">
                   <ul className="mt-5 grid gap-10 md:grid-cols-1 lg:grid-cols-1 lg:gap-20">
-                    <Slider {...settings}>
+                    <Slider  {...settings} >
                       {ABOUT_SLIDER_PICS.map((value, index) => (
                         <div key={index} className="py-2 pl-2 pr-2 ">
                           <Image
@@ -71,7 +96,7 @@ const AboutUs = () => {
                   </ul>
                 </li>
                 <li className="flex w-full flex-1 flex-col items-center">
-                  <h2 className=" text-2xl font-semibold lg:font-bold xl:max-w-[390px]">
+                  <h2 className=" text-2xl font-semibold lg:font-bold xl:max-w-xl ">
                     About Vedmarg
                   </h2>
                   <p className="regular-16 mt-3  text-gray-30 lg:mt-[20px] lg:bg-none text-justify">
@@ -124,3 +149,5 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+
+  
