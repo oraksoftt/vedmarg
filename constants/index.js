@@ -23,6 +23,33 @@ export const DOWNLOAD_SLIDER = [
 ];
 
 // HOW_TO_START SECTION..
+export const PARTNERSHIP_BENEFITS = [
+  {
+    title: "Maximize your Profits and Growth",
+  },
+  {
+    title: "Be Flexible with Deployment Schemes & Payment plans",
+  },
+  {
+    title: "Get access to our sales and Marketing Resources",
+  },
+  {
+    title: "Grow with our Education and Presales support",
+  },
+  {
+    title: "Unlimited Training Regarding Sales and Technical Part",
+  },
+  {
+    title: "An Experienced Account Manager to cater your account",
+  },
+  {
+    title: "Attractive Lifetime Revenue Stream",
+  },
+  {
+    title: "Work Anytime Anyday Anywhere in India",
+  },
+];
+// HOW_TO_START SECTION..
 export const HOW_TO_START = [
   {
     Header: "Just follow the below steps:",
@@ -900,6 +927,46 @@ export const TIMELINE = [
   },
 ];
 
+// FAQ TEACHER SECTION..
+export const FAQ_TEACHER = [
+  {
+    question: "What is a teacher management system? ",
+    answer:
+      "Teacher management system is a tool that helps in recording, streamlining, and organizing teaching activities, and generates a comprehensive report for teachers.",
+  },
+  {
+    question: "Why is teacher management essential? ",
+    answer:
+      "Teachers are the backbone of any school or institution. This system assists them in reducing their time that is spent on managing the curriculum.",
+  },
+  {
+    question: "What are the benefits of the teacher management system? ",
+    answer:
+      "The benefits are listed below: *-Managing timetables*-Managing daily attendance*-Enhances communication with students*-Assign homework to students *-Maintain salary records",
+  },
+  {
+    question: "What are the features of the teacher management system?  ",
+    answer:
+      "The features of teacher management system are: *-Easy resource sharing*-Student performance tracking*-Classroom activity record*-Data analysis and reports  *-Remote teaching",
+  },
+  {
+    question: "How to manage the teacher management system? ",
+    answer:
+      "Each teacher will be given a unique username and password to login into the system. After logging successfully, A teacher dashboard will open up where they can manage all the activities.    ",
+  },
+  {
+    question: "  ",
+    answer: "",
+  },
+  {
+    question: "  ",
+    answer: "",
+  },
+  {
+    question: "  ",
+    answer: "",
+  },
+];
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {

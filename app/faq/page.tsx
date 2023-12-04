@@ -1,9 +1,11 @@
-import React from 'react'
-
+import dynamic from "next/dynamic";
+const FAQs = dynamic(() => import("@/components/FAQ"));
 const FAQ = () => {
   return (
-	<div>FAQ</div>
-  )
-}
+    <>
+      <FAQs />
+    </>
+  );
+};
 
-export default FAQ
+export default FAQ;
