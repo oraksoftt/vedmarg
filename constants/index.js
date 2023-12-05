@@ -928,6 +928,32 @@ export const TIMELINE = [
 ];
 
 // FAQ TEACHER SECTION..
+export const FAQ_MENU = [
+  { menu: "Teacher" },
+  { menu: "Student" },
+  { menu: "Fee" },
+  { menu: "Transport" },
+  { menu: "Employee" },
+  { menu: "Messaging (SMS)" },
+  { menu: "Attendance" },
+  { menu: "Documents" },
+  { menu: "Misc." },
+];
+
+// FAQ STUDENT SECTION..
+export const FAQ_STUDENT = [
+  {
+    question: "What is a school management software? ",
+    answer:
+      "A school management software is a system that helps in facilitating A to Z managerial & administrative operations of a school in a simplified manner.",
+  },
+  {
+    question: "How does a school management software work? ",
+    answer:
+      "School management system is a digitized platform that offers a centralized view to the school administrator to manage & monitor the school activities comprehensively.",
+  },
+];
+// FAQ TEACHER SECTION..
 export const FAQ_TEACHER = [
   {
     question: "What is a teacher management system? ",
@@ -953,18 +979,6 @@ export const FAQ_TEACHER = [
     question: "How to manage the teacher management system? ",
     answer:
       "Each teacher will be given a unique username and password to login into the system. After logging successfully, A teacher dashboard will open up where they can manage all the activities.    ",
-  },
-  {
-    question: "  ",
-    answer: "",
-  },
-  {
-    question: "  ",
-    answer: "",
-  },
-  {
-    question: "  ",
-    answer: "",
   },
 ];
 // FOOTER SECTION
