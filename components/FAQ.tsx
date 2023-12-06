@@ -1,35 +1,46 @@
 "use client";
-import { FAQ_MENU, FAQ_STUDENT, FAQ_TEACHER } from "@/constants";
-import React, { useState } from "react";
+import { FAQ_EMPLOYEE, FAQ_FEE, FAQ_MENU, FAQ_MESSAGING, FAQ_STUDENT, FAQ_TEACHER, FAQ_TRANSPORT } from "@/constants";
+
 import PageTitleHeader from "./PageTitleHeader";
 import Link from "next/link";
-const FAQ = () => {
-  const [category, setCategory] = useState("");
-  const handleMenuClick = (category: string) => {
-    setCategory(category);
-  };
-  type FAQItem = {
-    question: string;
-    answer: string;
-  };
+import { useState } from "react";
 
-  const FAQDisplay = ({ category }: { category: string }) => {
-    let FAQToDisplay: FAQItem[] = [];
-  
+const FAQ = () => {
+  const [FAQToDisplays, setFAQToDisplays] = useState<any[]>(FAQ_TEACHER);  
+
+  const handleMenuClick = (category: string) => {
+    let displayArray: any[] = [];
     switch (category) {
       case "Student":
-        FAQToDisplay = FAQ_STUDENT;
+        displayArray = FAQ_STUDENT;
         break;
       case "Teacher":
-        FAQToDisplay = FAQ_TEACHER;
+        displayArray = FAQ_TEACHER;
         break;
-      // Add more cases if needed
-      default:
-        // Handle default case accordingly
+      case "Fee":
+        displayArray = FAQ_FEE;
         break;
+      case "Transport":
+        displayArray = FAQ_TRANSPORT;
+        break;
+      case "Employee":
+        displayArray = FAQ_EMPLOYEE;
+        break;
+      case "Messaging (SMS)":
+        displayArray = FAQ_MESSAGING;
+        break;
+      case "Attendance":
+        displayArray = FAQ_TEACHER;
+        break;
+      case "Documents":
+        displayArray = FAQ_TEACHER;
+        break;
+      case "Misc.":
+        displayArray = FAQ_TEACHER;
+        break;
+       
     }
-  
- 
+    setFAQToDisplays(displayArray);
   };
 
   return (
@@ -59,7 +70,7 @@ const FAQ = () => {
             ))}
           </div>
           <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
-            {FAQToDisplay.map((data, index) => (
+            {FAQToDisplays.map((data:any, index:number) => (
               <div key={index} className="py-5   shadow-md pl-5">
                 <details className="group">
                   <summary className="flex justify-between items-center font-medium cursor-pointer list-none">

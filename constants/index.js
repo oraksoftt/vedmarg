@@ -939,7 +939,109 @@ export const FAQ_MENU = [
   { menu: "Documents" },
   { menu: "Misc." },
 ];
-
+// FAQ  MESSAGING SECTION..
+export const FAQ_MESSAGING = [
+  {
+    question: "What is an SMS management system?",
+    answer: "SMS management system is a solution that facilitates day-to-day communication with parents and students. ",
+  },
+  {
+    question: "How does SMS & notifications benefit parents? ",
+    answer: "The regular updates from school builds a sense of trust, credibility and authoritativeness in the minds of parents. Moreover, It eliminates the communication gap which was common in the traditional management system. ",
+  },
+  {
+    question: "What SMS management system is essential? ",
+    answer: "SMS management establishes a strong communication between all the stakeholders such as parents, students, teachers, and administrators.",
+  },
+  {
+    question: "How many SMS can we send in a day? ",
+    answer: "You can send nth number of messages to nth number of recipients in a day. ",
+  },
+  {
+    question: "What type of messages can we send? ",
+    answer: "There are 30+ SMS templates are ready (DLT approved) and some of them are as follows:Student absent messageHoliday messageExam datesheet messagePTM messageEvent updatesLong absent message",
+  },
+   
+]
+// FAQ EMPLOYEE SECTION..
+export const FAQ_EMPLOYEE = [
+  {
+    question: "What is an employee management system? ",
+    answer: "It is a system that stores, and maintains the comprehensive all of each of your employees",
+  },
+  {
+    question: "Why is employee management important? ",
+    answer: "It provides data of your employees on your fingertips. You can access the information of each employee in just a few clicks.",
+  },
+  {
+    question: "How many employees can we add? ",
+    answer: "You can add ‘n’ number of employees",
+  },
+  {
+    question: "What are the details that the system will store? ",
+    answer: "You can add more fields at any point of time. It will store the following employee info.Full nameProfile pictureComplete addressMobile numberAadhar (Front & Back ) will be uploaded",
+  },
+  {
+    question: "What are the benefits of an employee management system? ",
+    answer: "The benefits are listed below: It tracks the activities of your employeeMonitors daily attendanceProvides centralized employee informationProvides key insights about your workforceEnhances employee productivity",
+  },
+];
+// FAQ TRANSPORT SECTION..
+export const FAQ_TRANSPORT = [
+  {
+    question: "What is a transport management system? ",
+    answer:
+      "A transport management system uses technology to ensure that all the students must reach their home in a safe and secure manner. ",
+  },
+  {
+    question: "Which technology is used in transport management? ",
+    answer:
+      "A GPS-enabled device will be integrated across all the vehicles of the schools to monitor the movement at every point of time.",
+  },
+  {
+    question:
+      "What are the key benefits of a transportation management system (TMS)? ",
+    answer:
+      "The key benefits are listed below:Provides a secured environmentPrecisely monitor the movement of school busesBuilds trust of parents towards the schoolYou can add ‘n’ number of routes. There is no limit. Enhanced transportation intelligence",
+  },
+  {
+    question: "What does real-time tracking of students mean?",
+    answer:
+      "Vedmarg embraces cloud technology that enables the information to be updated constantly. It provides real-time tracking information of students. The parents can also view the real-time location of their child. ",
+  },
+  {
+    question: "How many routes can we add in TMS? ",
+    answer: "There is no limit. You can add as much as you can.",
+  },
+];
+// FAQ FEE SECTION..
+export const FAQ_FEE = [
+  {
+    question: "What is a fee management software? ",
+    answer:
+      "It is a cloud-based solution that enables the school to simplify and streamline the fee management operations substantially. ",
+  },
+  {
+    question: "How can fee payments be managed with Vedmarg?",
+    answer:
+      "Vedmarg is integrated with a payment gateway interface that entitles the parents to pay the tuition fee digitally. The parents will get a digital receipt of the payment they have made to the school. ",
+  },
+  {
+    question: "What are the benefits of the fee management system?",
+    answer:
+      "A few benefits are listed below: Pay from anywhereNo paperwork requiredBoost transparencyGet access to fee reportsSend fee reminders",
+  },
+  {
+    question: "How will a parent get the fee receipt? ",
+    answer:
+      "A parent or a student can download the tuition fee receipt from the email.",
+  },
+  {
+    question: "What is the preferred mode of fee payment? ",
+    answer:
+      "Students can pay their fee via debit card, credit card, PayTm, PhonePe, QR code or through a net banking facility. All the payments are 128-bit encrypted.",
+  },
+];
 // FAQ STUDENT SECTION..
 export const FAQ_STUDENT = [
   {
@@ -951,6 +1053,17 @@ export const FAQ_STUDENT = [
     question: "How does a school management software work? ",
     answer:
       "School management system is a digitized platform that offers a centralized view to the school administrator to manage & monitor the school activities comprehensively.",
+  },
+  {
+    question: "What are the elements of a school management software?  ",
+    answer:
+      "Vedmarg school ERP software is equipped with 80+ powerful modules to assist in regulating the school operations. Some of them are as follows: *-Fee management system*-Student management system*-Attendance management system*-Report generation *-SMS alerts & notifications *-Admission management system, and much more..",
+  },
+  {
+    question:
+      "What tasks can be made easier with the dedicated school management software? ",
+    answer:
+      "The digitization of schools helps in automating the tasks that are complex and time consuming. Tasks like fee management system, admission management system, accounting management system, transport management system and library management system can be smoothly handled by integrating the school with a reliable information management system. ",
   },
 ];
 // FAQ TEACHER SECTION..
